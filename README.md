@@ -1,5 +1,3 @@
-# Radoine
-مكتبة البصائر الرقمية: منصتك العربية لقراءة وتحميل الكتب والقصص التربوية والمعرفية. واجهة أنيقة، دعم الوضع الليلي، تسجيل دخول سريع، وكتب تناسب جميع الأعمار. المعرفة للجميع، والبصيرة تبدأ من هنا.
 import React, { useState } from 'react'; import './fonts.css';
 
 function App() { const [dark, setDark] = useState(false); const [showWelcome, setShowWelcome] = useState(true); const toggleDark = () => setDark(!dark);
@@ -38,4 +36,3 @@ return ( <div className={dark ? 'bg-gray-900 text-white min-h-screen p-6' : 'bg-
 
 export default App;
 
-https://www.paypal.com/donate
